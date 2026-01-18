@@ -1,3 +1,7 @@
+.PHONY: help
+help:
+	@echo available commands: install, uninstall, dist, publish
+
 .PHONY: install
 install:
 	[ -z "$${VIRTUAL_ENV}" ] \
